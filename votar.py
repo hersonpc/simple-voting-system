@@ -6,6 +6,7 @@
 ##  Aluno.......: HERSON PEREIRA CORDEIRO DE MELO (hersonpc@gmail.com)
 ##  Matricula...: 201908093609
 ##  Data........: 2020-04-26
+##  GIT.........: https://github.com/hersonpc/simple-voting-system
 ###############################################################################
 
 import sys
@@ -16,7 +17,7 @@ import subprocess as sp
 
 
 # variaveis globais
-nome_arquivo = 'db.votar.bin'
+nome_arquivo = 'db.voting.bin'
 regioes = []
 candidatos = []
 votos = []
@@ -473,6 +474,6 @@ def menu():
 
 
 # Inicio da aplicacao
-seeder()
+# seeder() # se disparado permite preencher com dados de teste
 obter_dados()
 menu()

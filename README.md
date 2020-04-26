@@ -1,7 +1,7 @@
 # simple-voting-system
 
-Curso: CIÊNCIA DE DADOS E BIG DATA ANALYTICS
-Disciplina: LINGUAGEM PYTHON 2.7
+Curso: **CIÊNCIA DE DADOS E BIG DATA ANALYTICS**.  
+Disciplina: **LINGUAGEM PYTHON 2.7**.  
 
 
 ## Introdução
@@ -14,3 +14,44 @@ Permite que o usuário possa:
 3. Registrar votos em um dos candidatos cadastrados;
 4. Consultar a apuração dos votos por candidato e por região.
 
+## Interface CLI
+
+### Menu
+
+![](/docs/001-menu.png) 
+
+### Cadastros
+
+Cadastro das regiões de votação  
+
+![](/docs/002-cadastro-regiao.png) 
+
+Cadastro dos candidatos  
+
+![](/docs/003-cadastro-candidato.png) 
+
+### Procedimento de votação
+
+Informar a região de onde esta sendo feita a votação  
+
+![](/docs/004-votar-a.png) 
+
+Escolher o candidato  
+
+![](/docs/005-votar-b.png) 
+
+Confirmar a escolha  
+
+![](/docs/006-votar-c.png) 
+
+![](/docs/007-votar-d.png) 
+
+### Apuração da votação
+
+Por candidato  
+
+![](/docs/008-apuracao-candidato.png) 
+
+Por região/candidato  
+
+![](/docs/009-apuracao-regiao.png) 
